@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #F7F9FC; /* Couleur de fond claire */
+    color: #333333; /* Couleur du texte principal */
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #FFFFFF; /* Fond blanc pour le formulaire */
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 26px; /* Taille du titre */
+    color: #0072B8; /* Couleur bleue pour le titre */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333333; /* Couleur du texte pour les labels */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #0072B8; /* Bordure bleue */
+    border-radius: 4px;
+    background: #F7F9FC; /* Fond très clair pour les champs */
+    color: #333333; /* Texte en gris foncé */
+    font-size: 16px; /* Taille de la police pour les champs */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #005DA3; /* Bordure bleue plus foncée au focus */
+    outline: none; /* Suppression de l'outline par défaut */
+}
+
+.cta-button {
+    background: #0072B8; /* Couleur de fond du bouton */
+    color: #FFFFFF; /* Couleur du texte */
+    border: none;
+    padding: 15px;
+    font-size: 18px; /* Taille de la police pour le bouton */
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s, transform 0.3s;
+    width: 100%;
+}
+
+.cta-button:hover {
+    background: #005DA3; /* Couleur du bouton au survol */
+    transform: translateY(-2px); /* Effet d'élévation au survol */
+}
